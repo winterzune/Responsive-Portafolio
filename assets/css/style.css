@@ -53,7 +53,7 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  position: static;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -120,7 +120,7 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 1px;
   min-height: calc(100vh - 70px);
 }
 
@@ -260,3 +260,6 @@ input[type=submit] {
 .col-s-11 {width: 91.66%;}
 .col-s-12 {width: 100%;}
   }
+
+
+  /*if have time add font sizes for different resolutions, paddings on the css*/
